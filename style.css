@@ -1,0 +1,45 @@
+body{
+  min-height: 600px;  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 8px solid red;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  text-justify: distribute;
+  /* gap: 20px; */
+    column-gap: 10px;
+    row-gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+    
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* flex-grow: 1; */
+  width: 150px;
+  height: 150px;
+  background-color: rgb(54, 54, 84);
+  font-size: 40pt;
+  backdrop-filter: opacity(50%);
+  flex-shrink: 1;
+  flex-grow: 2;
+ 
+}
+
+.box:hover{
+  color: aqua;
+  background-color: red;
+}
+#box-12{
+  /* flex-shrink: 5; */
+  flex-grow: 4;
+  align-self: center;
+}
